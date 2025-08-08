@@ -7,8 +7,8 @@ public class Aula11 {
 
     public static void main(String[] args) {
         
-        exemplo01();
-        //solucao();
+        //exemplo01();
+        solucao();
     }
     
     /*Quando este código for executado, o mesmo lançará uma NullPointerException, 
@@ -33,7 +33,7 @@ public class Aula11 {
     catch(NullPointerException e) //CAPTURA DA POSSÍVEL exceção.
     {
       //TRATAMENTO DA exceção
-      System.out.println("O frase inicial está nula,para solucional tal o problema, foi lhe atribuito um valor default.");
+      System.out.println("O frase inicial está nula,para solucionar tal o problema, foi lhe atribuito um valor default.");
       frase = "Frase vazia";
       novaFrase = frase.toUpperCase();
     }

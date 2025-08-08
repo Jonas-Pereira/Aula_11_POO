@@ -4,10 +4,7 @@
  */
 package aula_11;
 
-/**
- *
- * @author Jonas
- */
+
 public class Exemplo03 {
   private static void aumentarLetras() throws NullPointerException //lançando excessão
   {
